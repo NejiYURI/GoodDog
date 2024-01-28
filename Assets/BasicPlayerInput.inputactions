@@ -1,0 +1,94 @@
+{
+    "name": "BasicPlayerInput",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "90e3c4b4-73c2-4a54-a73e-e1a61fa483d0",
+            "actions": [
+                {
+                    "name": "BackLeg",
+                    "type": "Button",
+                    "id": "36b693f4-9158-4d89-a49b-d22b698cfed6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FrontLeg",
+                    "type": "Button",
+                    "id": "e515fd10-6d2d-42f0-975d-9420fadd6017",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Tail",
+                    "type": "Button",
+                    "id": "44a77afe-53d8-4eca-bc04-a6f7c32f5656",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "4c641cfb-1f14-4c8b-a8f5-c6cdf4503831",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "547e2f31-7667-4e0f-93ea-5f8e9c137c88",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackLeg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19ba123d-4322-4872-af25-f452d8aa60e8",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FrontLeg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c1d4eff5-a47c-48c3-b9a5-9683d4ee3c1b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tail",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97cf12c2-46cd-47d4-8417-9205ff05dd05",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
